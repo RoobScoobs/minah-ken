@@ -1,5 +1,5 @@
 import { IResolvers } from 'apollo-server-express';
-import { Database, Recipe } from '../../../lib/types';
+import { Database, Recipe, Ingredient } from '../../../lib/types';
 
 export const recipeResolvers: IResolvers = {
     Query: {
@@ -10,5 +10,8 @@ export const recipeResolvers: IResolvers = {
         ): Promise<Recipe[]> => {
             return await db.recipes.find({}).toArray();
         }
+    },
+    Ingredient: {
+        quantity: (ingredient: Ingredient): number => +ingredient.quantity
     }
 };

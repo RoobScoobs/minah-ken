@@ -1,9 +1,9 @@
-import { Collection, ObjectId } from 'mongodb';
+import { Collection, ObjectId, Decimal128 } from 'mongodb';
 
-interface Ingredient {
-    quantity: number;
+export interface Ingredient {
+    quantity: Decimal128;
     unit: string;
-    description: string;
+    name: string;
 }
 
 export interface Recipe {

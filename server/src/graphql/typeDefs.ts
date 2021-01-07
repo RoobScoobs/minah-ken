@@ -2,9 +2,9 @@ import { gql } from 'apollo-server-express';
 
 export const typeDefs = gql`
     type Ingredient {
-        quantity: Int
+        quantity: Float
         unit: String
-        description: String
+        name: String
     }
 
     type Recipe {

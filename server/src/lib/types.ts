@@ -1,7 +1,7 @@
-import { Collection, ObjectId, Decimal128 } from 'mongodb';
+import { Collection, ObjectId, Double } from 'mongodb';
 
 export interface Ingredient {
-    quantity: Decimal128;
+    quantity: Double;
     unit: string;
     name: string;
 }
@@ -11,8 +11,8 @@ export interface Recipe {
     title: string;
     image: string;
     description: string;
-    ingredients: Ingredient[];
-    instructions: string[];
+    ingredients?: Ingredient[];
+    instructions?: string[];
 }
 
 export interface Database {

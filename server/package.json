@@ -28,6 +28,6 @@
     "scripts": {
         "start": "nodemon src/index.ts",
         "build": "tsc --project ./",
-        "seed": "ts-node temp/seed.ts"
+        "seed": "ts-node tmp/seed.ts"
     }
 }

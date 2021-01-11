@@ -11,7 +11,9 @@ export interface Recipe {
     title: string;
     image: string;
     description: string;
-    ingredients?: Ingredient[];
+    ingredients?: {
+        [key: string]: Ingredient[]
+    };
     instructions?: string[];
 }
 

@@ -345,23 +345,178 @@ export const recipes: Recipe[] = [
     },
     {
         _id: new ObjectId(),
-        title: '',
+        title: 'Hayashi Rice',
         image: '',
-        description: '',
+        description: '🍛🍚🍱 Not made the traditional way, but just as comforting...not to mention vegan.',
         ingredients: [
             {
-                name: '',
+                name: '*',
                 items: [
                     {
-                        name: '',
-                        quantity: new Double(),
+                        name: 'sweet peppers sliced',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'mushrooms, sliced or quartered',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'small onion',
+                        quantity: new Double(1),
+                        unit: 'sliced thinly',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(2),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'carrots',
+                        quantity: new Double(3),
+                        unit: 'sliced into coins',
+                    },
+                    {
+                        name: 'crushed tomatoes',
+                        quantity: new Double(1),
+                        unit: 'can',
+                    },
+                    {
+                        name: 'red wine',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'mirin',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'soy sauce',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'vegetarian mushroom sauce (or sugar)',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'nutritional yeast',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'bay leaves',
+                        quantity: new Double(3),
                         unit: '',
+                    },
+                    {
+                        name: 'konbu',
+                        quantity: new Double(1),
+                        unit: 'small piece',
                     },
                 ]
             }
         ],
         instructions: [
-            '',
+            'Sauté garlic and onions until brown',
+            'Add mushrooms, continue sautéing until mushrooms begin to brown',
+            'Deglaze pan with mirin and wine, allow it to reduce for 2-3 min',
+            'Add tomatoes, peppers, carrots, soy sauce, mushroom sauce, nutritional yeast, bay leaves,, konbu, and black pepper',
+            'Simmer for 15-30 min until carrots are soft, flavors are well developed, and the liquid is well reduced to a thick sauce',
+            'Season with sugar/salt/pepper to taste',
+            'Remove bay leaves and konbu',
+            'Serve with hot rice and toppings (e.g. sesame seeds, shredded nori, scallions',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'A Whole Heart',
+        image: '',
+        description: 'These bowls are brilliant. Plant based done right: unique, fresh, and boldly delicious. Can\'t wait to eat again at Whole Heart Provisions.',
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Saturday Mornings',
+        image: '',
+        description: 'Blueberry buckwheat pancakes on a saturday morning',
+    },
+        {
+        _id: new ObjectId(),
+        title: 'An Old World Feeling',
+        image: '',
+        description: 'Tuscan Kale with garlic, raisins, and walnuts, over spaghetti squash 🍃🍇',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'spaghetti squash',
+                        quantity: new Double(0.5),
+                        unit: '',
+                    },
+                    {
+                        name: 'tuscan kale',
+                        quantity: new Double(4),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'medium sized onion',
+                        quantity: new Double(0.5),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'raisins',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'walnuts',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(3),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'vegetable stock',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'lemon',
+                        quantity: new Double(0.5),
+                        unit: '',
+                    },
+                    {
+                        name: 'nutritional yeast',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'Cut spaghetti squash in half, and remove seeds. Season with black pepper, salt, and garlic powder',
+           'Place halves inverted on a baking sheet, and bake at 375F for approximately 30-40 minutes. Squash is done when the spaghetti shreds cleanly pull away from the flesh, without being mushy. Taste a shred to be sure that it still has a bite to it',
+           'Once squash is cooked, use a fork to pull away all of the spaghetti shreds and transfer them into a bowl',
+           'Caramelize the onions and garlic. Sauté on medium heat with the sugar to help them brown. I used vegetable broth to water sauté, however you could use olive oil instead',
+           'Once the onions and garlic are browning, add the mushrooms and continue to brown for a few minutes',
+           'Add raisins and walnut pieces, and continue to saute until the raisins are plump',
+           'Add kale, and gently mix everything together',
+           'Add 1/2c vegetable stock, and bring to a simmer. Cover pan, and allow kale to wilt',
+           'Once the kale has reduced in size, add the spaghetti squash and another 1/2c vegetable stock. Gently toss contents of the pan, and allow it to continue simmering',
+           'Add nutritional yeast, black pepper, and salt to taste',
+           'Once the components are well combined and seasoned, turn off heat and add lemon juice'
         ],
     },
 ];

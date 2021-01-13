@@ -11,7 +11,7 @@ export const recipeResolvers: IResolvers = {
             return await db.recipes.find({}).toArray();
         }
     },
-    Ingredient: {
-        quantity: (ingredient: Ingredient): number => +ingredient.quantity
-    }
+    // Ingredient: {
+    //     quantity: (ingredient: Ingredient): number => +ingredient.quantity
+    // }
 };

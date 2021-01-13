@@ -13,72 +13,63 @@ export const recipes: Recipe[] = [
         title: 'Mom\'s Oatmeal Cookies',
         image: '',
         description: 'Craving my mom\'s oatmeal cookies today, so I decided to rework a vegan gluten free version. Enjoying the result with my favorite almong roiboss tea from tea luxe.',
-        ingredients: {
-            'wet ingredients': [
-                {
-                    name: 'flax meal',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'water',
-                    quantity: new Double(4),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'vanilla',
-                    quantity: new Double(1),
-                    unit: 'tsp',
-                },
-                {
-                    name: 'almond milk',
-                    quantity: new Double(0.5),
-                    unit: 'c',
-                },
-                {
-                    name: 'apple cider vinegar',
-                    quantity: new Double(1),
-                    unit: 'tsp',
-                },
-                {
-                    name: 'almond butter',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-            ],
-            'dry ingredients': [
-                {
-                    name: 'old fashioned rolled oats (GF)',
-                    quantity: new Double(1),
-                    unit: 'c',
-                },
-                {
-                    name: 'quick cooking oats (GF)',
-                    quantity: new Double(1),
-                    unit: 'c',
-                },
-                {
-                    name: 'GF baking mix (e.g. Bob\'s Red Mill)',
-                    quantity: new Double(0.5),
-                    unit: 'c',
-                },
-                {
-                    name: 'baking soda',
-                    quantity: new Double(0.5),
-                    unit: 'c',
-                },
-                {
-                    name: 'sugar',
-                    quantity: new Double(0.75),
-                    unit: 'c',
-                },
-                {
-                    name: 'xantham gum',
-                    quantity: new Double(1),
-                    unit: 'tsp',
-                },
-            ],
-        },
+        ingredients: [
+            {
+                name: 'wet ingredients',
+                items: [
+                    {
+                        name: 'flax meal',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'water',
+                        quantity: new Double(4),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'vanilla',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                ]
+            },
+            {
+                name: 'dry ingredients',
+                items: [
+                    {
+                        name: 'old fashioned rolled oats (GF)',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'quick cooking oats (GF)',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'GF baking mix (e.g. Bob\'s Red Mill)',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'baking soda',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(0.75),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'xantham gum',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                ]
+            }
+        ],
         instructions: [
             'Flax meal and water are combined prior to making the rest of the recipe and left for ~5-10 minutes',
             'Thoroughly combine wet and dry ingredients separately, then mix together to form dough',
@@ -93,89 +84,98 @@ export const recipes: Recipe[] = [
         title: 'A Classic Malay Soup',
         image: '',
         description: 'My boyfriend and I spent the last couple weeks mustering through a cold so I had to make this: sop ayam made vegan. If you\'re sick (or just hungry 😉), try this classic.',
-        ingredients: {
-            'aromatics': [
-                {
-                    name: 'garlic',
-                    quantity: new Double(3),
-                    unit: 'cloves sliced',
-                },
-                {
-                    name: 'ginger',
-                    quantity: new Double(0.125),
-                    unit: 'slice',
-                },
-                {
-                    name: 'onion',
-                    quantity: new Double(0.5),
-                    unit: 'thinly sliced',
-                },
-            ],
-            'spices': [
-                {
-                    name: 'cinnamon',
-                    quantity: new Double(0.5),
-                    unit: 'stick',
-                },
-                {
-                    name: 'cardamom',
-                    quantity: new Double(5),
-                    unit: 'pods',
-                },
-                {
-                    name: 'cloves',
-                    quantity: new Double(3),
-                    unit: '',
-                },
-                {
-                    name: 'star anise',
-                    quantity: new Double(3),
-                    unit: '',
-                },
-                {
-                    name: 'fennel seeds',
-                    quantity: new Double(0.5),
-                    unit: 'tsp',
-                },
-                {
-                    name: 'coriander',
-                    quantity: new Double(0.5),
-                    unit: 'tsp',
-                },
-            ],
-            '*': [
-                {
-                    name: 'vegetable or water stock',
-                    quantity: new Double(8),
-                    unit: 'c',
-                },
-                {
-                    name: 'bay leaves',
-                    quantity: new Double(4),
-                    unit: '',
-                },
-                {
-                    name: 'konbu',
-                    quantity: new Double(1),
-                    unit: '2"x2"',
-                },
-                {
-                    name: 'heart of celery whole',
-                    quantity: new Double(0.25),
-                    unit: '',
-                },
-                {
-                    name: 'carrots',
-                    quantity: new Double(3),
-                    unit: 'sliced',
-                },
-                {
-                    name: 'shiitake mushrooms',
-                    quantity: new Double(4),
-                    unit: '',
-                },
-            ]
-        },
+        ingredients: [
+            {
+                name: 'aromatics',
+                items: [
+                    {
+                        name: 'garlic',
+                        quantity: new Double(3),
+                        unit: 'cloves sliced',
+                    },
+                    {
+                        name: 'ginger',
+                        quantity: new Double(0.125),
+                        unit: 'slice',
+                    },
+                    {
+                        name: 'onion',
+                        quantity: new Double(0.5),
+                        unit: 'thinly sliced',
+                    },
+                ]
+            },
+            {
+                name: 'spices',
+                items: [
+                    {
+                        name: 'cinnamon',
+                        quantity: new Double(0.5),
+                        unit: 'stick',
+                    },
+                    {
+                        name: 'cardamom',
+                        quantity: new Double(5),
+                        unit: 'pods',
+                    },
+                    {
+                        name: 'cloves',
+                        quantity: new Double(3),
+                        unit: '',
+                    },
+                    {
+                        name: 'star anise',
+                        quantity: new Double(3),
+                        unit: '',
+                    },
+                    {
+                        name: 'fennel seeds',
+                        quantity: new Double(0.5),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'coriander',
+                        quantity: new Double(0.5),
+                        unit: 'tsp',
+                    },
+                ]
+            },
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'vegetable or water stock',
+                        quantity: new Double(8),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'bay leaves',
+                        quantity: new Double(4),
+                        unit: '',
+                    },
+                    {
+                        name: 'konbu',
+                        quantity: new Double(1),
+                        unit: '2"x2"',
+                    },
+                    {
+                        name: 'heart of celery whole',
+                        quantity: new Double(0.25),
+                        unit: '',
+                    },
+                    {
+                        name: 'carrots',
+                        quantity: new Double(3),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'shiitake mushrooms',
+                        quantity: new Double(4),
+                        unit: '',
+                    },
+                ]
+            }
+        ],
         instructions: [
             'Saute aromatics that include garlic, ginger, and onion',
             'Coconut oil adds richness, but any oil will do; I did this version oil free by using water "sauteing" method',
@@ -197,57 +197,63 @@ export const recipes: Recipe[] = [
         title: 'Beach Vibes',
         image: '',
         description: 'Beach time with da girls, a beautiful break from the winter weather. Replicated unagi don w/ eggplant to make this vegan sushi bowl.',
-        ingredients: {
-            'eggplant unagi': [
-                {
-                    name: 'Japanese eggplants',
-                    quantity: new Double(2),
-                    unit: 'sliced 1/2" thick',
-                },
-                {
-                    name: 'mirin',
-                    quantity: new Double(0.25),
-                    unit: 'c',
-                },
-                {
-                    name: 'soy sauce/tamari',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'sugar',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'vegan fish sauce',
-                    quantity: new Double(1),
-                    unit: 'tbsp',
-                },
-            ],
-            'sushi rice': [
-                {
-                    name: 'sushi rice',
-                    quantity: new Double(1.5),
-                    unit: 'c',
-                },
-                {
-                    name: 'rice vinegar',
-                    quantity: new Double(3),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'sugar',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'salt',
-                    quantity: new Double(1.5),
-                    unit: 'tsp',
-                },
-            ]
-        },
+        ingredients: [
+            {
+                name: 'eggplant unagi',
+                items: [
+                    {
+                        name: 'Japanese eggplants',
+                        quantity: new Double(2),
+                        unit: 'sliced 1/2" thick',
+                    },
+                    {
+                        name: 'mirin',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'soy sauce/tamari',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'vegan fish sauce',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                ]
+            },
+            {
+                name: 'sushi rice',
+                items: [
+                    {
+                        name: 'sushi rice',
+                        quantity: new Double(1.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'rice vinegar',
+                        quantity: new Double(3),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'salt',
+                        quantity: new Double(1.5),
+                        unit: 'tsp',
+                    },
+                ]
+            }
+        ],
         instructions: [
             'Wash rice, and add enough water to just cover the grains. Cook rice',
             'Bake eggplant on a parchment lined baking sheet at 400F for ~10-20 min or until brown. Flip pieces halfway to cook evenly. (You can skip this, but adds extra depth, texture, and flavor)',
@@ -280,50 +286,53 @@ export const recipes: Recipe[] = [
         title: 'Broccoli Rabe & Spaghetti',
         image: '',
         description: '',
-        ingredients: {
-           '*' : [
-                {
-                    name: 'garlic cloves',
-                    quantity: new Double(3),
-                    unit: 'sliced',
-                },
-                {
-                    name: 'mushrooms',
-                    quantity: new Double(0),
-                    unit: 'sliced',
-                },
-                {
-                    name: 'sweet peppers',
-                    quantity: new Double(0),
-                    unit: 'sliced',
-                },
-                {
-                    name: 'broccoli rabe',
-                    quantity: new Double(1),
-                    unit: 'chopped into 1" pieces',
-                },
-                {
-                    name: 'spaghetti',
-                    quantity: new Double(3),
-                    unit: 'servings',
-                },
-                {
-                    name: 'almond butter',
-                    quantity: new Double(2),
-                    unit: 'tbsp',
-                },
-                {
-                    name: 'nutritional yeast',
-                    quantity: new Double(0.25),
-                    unit: 'c',
-                },
-                {
-                    name: 'pasta broth',
-                    quantity: new Double(2),
-                    unit: 'c',
-                },
-            ],
-        },
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(3),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'mushrooms',
+                        quantity: new Double(0),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'sweet peppers',
+                        quantity: new Double(0),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'broccoli rabe',
+                        quantity: new Double(1),
+                        unit: 'chopped into 1" pieces',
+                    },
+                    {
+                        name: 'spaghetti',
+                        quantity: new Double(3),
+                        unit: 'servings',
+                    },
+                    {
+                        name: 'almond butter',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'nutritional yeast',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'pasta broth',
+                        quantity: new Double(2),
+                        unit: 'c',
+                    },
+                ]
+            }
+        ],
         instructions: [
             'Blanche broccoli rabe in salted, boiling water for ~1 min',
             'Remove broccoli rabe, and cook pasta in boiling water until al dente',
@@ -339,15 +348,18 @@ export const recipes: Recipe[] = [
         title: '',
         image: '',
         description: '',
-        ingredients: {
-           '*' : [
-                {
-                    name: '',
-                    quantity: new Double(),
-                    unit: '',
-                },
-            ],
-        },
+        ingredients: [
+            {
+                name: '',
+                items: [
+                    {
+                        name: '',
+                        quantity: new Double(),
+                        unit: '',
+                    },
+                ]
+            }
+        ],
         instructions: [
             '',
         ],

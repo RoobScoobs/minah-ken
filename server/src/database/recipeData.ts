@@ -634,4 +634,67 @@ export const recipes: Recipe[] = [
            'Once the components are well melded together and seasoned, serve with toppings of your choice (e.g. scallions, cilantro, lime, and vegan sour cream)',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Dinner Before The Storm',
+        image: '',
+        description: 'A vegan Mujaddara',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'red onion',
+                        quantity: new Double(1),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'green lentils',
+                        quantity: new Double(1.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'long or medium grain rice (basmati, jasmine, or other long grain variety)',
+                        quantity: new Double(3),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'cumin',
+                        quantity: new Double(3),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'cayenne',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'bay leaf',
+                        quantity: new Double(1),
+                        unit: '',
+                    },
+                    {
+                        name: 'garlic powder',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'cinnamon stick',
+                        quantity: new Double(1),
+                        unit: 'inch',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'Cook lentils. Fill pot with water to about 1” above lentils. Bring to a boil and then simmer with lid on for 10-20 min, until soft',
+           'In a pot, saute onions with 1 tsp cumin, salt, and plenty of black pepper',
+           'Once browned, remove half of the onions and set aside',
+           'Add rice uncooked to the pot and continue to saute, until well combined with onions. Add the remaining cumin, cinnamon, cayenne, bay leaf, and lentils. Gently combine',
+           'Fill pot with water to about 1” above lentils and rice. Add 1 tsp salt',
+           'Bring to a boil, then cover and simmer on low heat for about 10-15 minutes. Stir occasionally',
+           'Once rice is cooked, add more salt or pepper to taste',
+           'Remove from heat. Top with remaining caramelized onions, lettuce, tahini, and other toppings of your choosing',
+        ],
+    },
 ];

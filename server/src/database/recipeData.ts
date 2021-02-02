@@ -697,4 +697,201 @@ export const recipes: Recipe[] = [
            'Remove from heat. Top with remaining caramelized onions, lettuce, tahini, and other toppings of your choosing',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Chipotle Quinoa Chili',
+        image: '',
+        description: '',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'black beans (or any bean of your choice)',
+                        quantity: new Double(2),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'vegetable broth, water, or bean broth',
+                        quantity: new Double(2),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'medium onion',
+                        quantity: new Double(1),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(3),
+                        unit: 'minced',
+                    },
+                    {
+                        name: 'mushrooms',
+                        quantity: new Double(4),
+                        unit: 'sliced thickly',
+                    },
+                    {
+                        name: 'red bell pepper',
+                        quantity: new Double(1),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'corn',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'ancho pepper (or any hot pepper)',
+                        quantity: new Double(1),
+                        unit: '1/2 sliced, 1/2 whole',
+                    },
+                    {
+                        name: 'carrot',
+                        quantity: new Double(1),
+                        unit: 'diced',
+                    },
+                    {
+                        name: 'crushed tomatoes',
+                        quantity: new Double(1),
+                        unit: 'can',
+                    },
+                    {
+                        name: 'oregano',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'chili powder',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'cumin',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'nutritional yeast',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'chipotle chili powder, or canned chipotle chili pepper',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'bay leaf',
+                        quantity: new Double(1),
+                        unit: '',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(1),
+                        unit: 'pinch',
+                    },
+                    {
+                        name: 'cinnamon',
+                        quantity: new Double(1),
+                        unit: 'pinch',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'Caramelize the onions and garlic. Sauté on medium heat with the sugar to help them brown. I used the extra water from boiling my dried black beans to water sauté, however you could use vegetable broth, water, or olive oil instead',
+           'Once the onions and garlic are browning, add the mushrooms and continue to brown for a few minutes',
+           'Add red bell pepper and ancho pepper, continue to brown until well caramelized',
+           'Add oregano, chili powder, cumin, chipotle pepper and sauté until fragrant',
+           'Add beans, carrots, tomatoes, bay leaf and 1-2c of additional broth/water and bring to a boil',
+           'Once boiling, add quinoa and a generous pinch of salt. Cover pot and allow it to simmer on medium low heat for approximately 15 minutes, stirring occasionally',
+           'Check to see if quinoa is fully cooked. It look well hydrated, and have absorbed lots of liquid. Taste it to see if the seeds are softened. Add additional water or broth if the chili is too dry',
+           'Continue to simmer. Add corn, nutritional yeast, and the pinch of cinnamon. Add small amounts of cinnamon at a time, and taste carefully as it only needs a small amount',
+           'Add salt and pepper to taste',
+           'Once the components are well melded together and seasoned, serve with toppings of your choice (e.g. scallions, cilantro, lime, and vegan sour cream)',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Quesadillas Veganas',
+        image: '',
+        description: 'Quesadillas with chili barbeque tempeh, portobello mushrooms, and roasted peppers and onions. Served with salad, rice, and guacamole.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'corn tortillas',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'mixture of sweet and hot peppers (i.e. jalapeño, bell peppers, and poblano)',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'portabello mushroom cut into large chunks',
+                        quantity: new Double(1),
+                        unit: '',
+                    },
+                    {
+                        name: 'crumbled or cut tempeh',
+                        quantity: new Double(1),
+                        unit: '1/4" chunks',
+                    },
+                    {
+                        name: 'red onion cut into 2 or 3 large chunks',
+                        quantity: new Double(1),
+                        unit: '',
+                    },
+                    {
+                        name: 'vegan cheese',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'chili powder',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'cumin',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'garlic powder',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'salt',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'black pepper',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'In a mixing bowl, season tempeh chunks with chili powder, cumin, garlic powder, bbq sauce, black pepper, and salt',
+           'Put whole peppers, mushrooms, and onion on a parchment lined baking sheet. Season with salt and pepper',
+           'Place seasoned tempeh on a separate parchment lined baking sheet',
+           'Bake veggies, and tempeh at 400F',
+           'After 5-10 minutes of baking, toss the tempeh and taste. Season to taste. If tempeh is crisp and hot, remove from oven. Otherwise, allow it to bake for another 5-10 minutes',
+           'After 10 minutes of baking, flip the vegetables. Continue to bake until they are well browned',
+           'Once everything is well roasted, slice the onions and peppers',
+           'Assemble the quesadillas by layering cheese, and the previously roasted fillings between 2 tortillas',
+           'Place assembled quesadillas back onto the parchment-lined baking sheets, and return to the 400F oven',
+           'After about 10 minutes of baking, check on the quesadillas. If they are beginning to brown, flip them over and continue to bake',
+           'Once both sides of the quesadillas are well browned, and the cheese is melted, remove from oven. Slice into halves or quarters and serve with salsa, guacamole, or vegan sour cream',
+           'Combine any remaining quesadilla toppings with lettuce and green onion to make a salad, and dress with salt and lime juice',
+        ],
+    },
 ];

@@ -954,4 +954,95 @@ export const recipes: Recipe[] = [
            'Remove from heat and serve with ice cream',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Gimme Soup, Please!',
+        image: '',
+        description: 'Split Pea Soup: cheap, hearty, and comforting. Best of all...no piggies!',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'dried split peas',
+                        quantity: new Double(16),
+                        unit: 'oz',
+                    },
+                    {
+                        name: 'carrots',
+                        quantity: new Double(3),
+                        unit: 'cut into coins',
+                    },
+                    {
+                        name: 'mushrooms',
+                        quantity: new Double(4),
+                        unit: 'sliced thickly',
+                    },
+                    {
+                        name: 'dried shiitake mushrooms',
+                        quantity: new Double(4),
+                        unit: '',
+                    },
+                    {
+                        name: 'large onion',
+                        quantity: new Double(0.5),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(4),
+                        unit: 'minced',
+                    },
+                    {
+                        name: 'bay leaves',
+                        quantity: new Double(2),
+                        unit: '',
+                    },
+                    {
+                        name: 'cumin',
+                        quantity: new Double(2),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'coriander',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'miso paste',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'nutritional yeast',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'soy sauce/tamari',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'piece of konbu',
+                        quantity: new Double(1),
+                        unit: '~ 2"x2"',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'In a pot, sauté onions and garlic until well browned. (I used water, but you could also use oil or vegetable broth)',
+           'Once the onions and garlic are well browned, add mushrooms and continue to brown',
+           'Add cumin and coriander. Sauté until fragrant',
+           'Add dried split peas, and brown for 1 minute',
+           'Add ~8 cups of water or vegetable broth, until peas are well covered by 3-4”',
+           'Add carrots, dried mushrooms, bay leaves, and konbu',
+           'Bring pot to a boil, then cover and simmer until peas have begun to soften. Stir occasionally, and add additional water or broth if the mixture seems too dry. This should take about 10-15 minutes',
+           'Pull out dried shiitake mushrooms. Slice and return to pot',
+           'Once peas are soft and have absorbed most of the liquid, add miso, nutritional yeast, soy sauce, and black pepper.',
+           'Stir and taste. If continue to simmer until soup and reach the desired thickness and pea-softness. (I prefer my soup to have a bit of broth to it, so I made sure to not let all of the liquid cook out of the soup)',
+           'Add any additional salt and pepper to taste and enjoy',
+        ],
+    },
 ];

@@ -894,4 +894,64 @@ export const recipes: Recipe[] = [
            'Combine any remaining quesadilla toppings with lettuce and green onion to make a salad, and dress with salt and lime juice',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Rum Bliss',
+        image: '',
+        description: 'Apple Rum Compote with Coconut Bliss\' Naked Ice Cream',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'apple',
+                        quantity: new Double(1),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'water',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'vanilla extract',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'cinnamon',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'dark rum',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'tapioca starch',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'vegan ice cream',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+           'Add apple slices, sugar, water, vanilla, cinnamon, and dark rum into a saucepan',
+           'Bring to a simmer, and cover for 10-15 minutes. Stir occasionally. Add more water if the mixture becomes dry',
+           'Add tapioca starch, and stir well',
+           'Continue to simmer until apples are able to be pierced with a fork, but still firm',
+           'Remove from heat and serve with ice cream',
+        ],
+    },
 ];

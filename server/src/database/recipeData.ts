@@ -1196,23 +1196,49 @@ export const recipes: Recipe[] = [
     },
     {
         _id: new ObjectId(),
-        title: '',
+        title: 'Hello Spring! 🌷🌱🌦🥕',
         image: '',
-        description: '',
+        description: 'Looking forward to the beautiful produce to come, I encourage you to love your greens. Too many people dislike vegetables simply because they are usually served overcooked and bland. Growing up in an asian household, I was always taught to cook veggies quickly and simply to enhance their flavor. Enjoy these fresh snow peas with garlic sauce….and please, keep them bright and crisp, people',
         ingredients: [
             {
                 name: '*',
                 items: [
                     {
-                        name: '',
-                        quantity: new Double(0),
-                        unit: '',
+                        name: 'snow peas, cleaned and stemmed',
+                        quantity: new Double(3),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(5),
+                        unit: 'minced',
+                    },
+                    {
+                        name: 'hot pepper (optional)',
+                        quantity: new Double(1),
+                        unit: 'finely diced',
+                    },
+                    {
+                        name: 'corn/tapioca starch',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'warm water',
+                        quantity: new Double(3),
+                        unit: 'tbsp',
                     },
                 ],
             },
         ],
         instructions: [
-           '',
+           'Create a starch mix slurry by combining 1 tbsp of the corn or tapioca starch mixed with 2-3 tbsp of warm water',
+           'Fry garlic on high heat with a pinch of sugar. You can use oil or water method, however if you use the water saute method be sure to add water sparingly so garlic gets very hot',
+           'Once fragrant, add hot pepper if desired. Add salt and black pepper to taste',
+           'Add snow peas and stir quickly to distribute heat',
+           'Once peas turn bright green (after about 30s-1min) add slurry and reduce heat',
+           'Add additional salt to taste, or soy sauce if desired',
+           'Quickly remove from heat while peas remain bright green and crisp',
         ],
     },
 ];

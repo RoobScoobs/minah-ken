@@ -1045,4 +1045,174 @@ export const recipes: Recipe[] = [
            'Add any additional salt and pepper to taste and enjoy',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Everyone Loves Pad Thai, Right?',
+        image: '',
+        description: 'This is yummy and light.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'vegan fish sauce (if you don\'t have this, use soy sauce)',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'tamarind paste',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'coconut sugar (if using regular sugar, use about 1/2c)',
+                        quantity: new Double(0.75),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(3),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'medium shallot',
+                        quantity: new Double(1),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'shiitake mushrooms',
+                        quantity: new Double(3),
+                        unit: 'soaked and minced',
+                    },
+                    {
+                        name: 'dried radish (optional)',
+                        quantity: new Double(2),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'carrot',
+                        quantity: new Double(1),
+                        unit: 'sliced julienne',
+                    },
+                    {
+                        name: 'red pepper',
+                        quantity: new Double(0.5),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'chinese/garlic chives',
+                        quantity: new Double(5),
+                        unit: '2" pieces',
+                    },
+                    {
+                        name: 'mung bean sprouts',
+                        quantity: new Double(3),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'snow peas (or other veggies of your choice)',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'chili paste, or finely sliced hot pepper (optional)',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'tofu cutlet, cut into cubes (choose any extra firm tofu of your choice, sponge tofu works well too)',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'rice noodles, soaked in cold water until al dente (~ 20 min)',
+                        quantity: new Double(1),
+                        unit: 'package',
+                    },
+                ],
+            },
+            {
+                name: 'garnish',
+                items: [
+                    {
+                        name: 'cilantro',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'lime',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'sliced chili/chili paste',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'crushed peanuts',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                    {
+                        name: 'extra garlic chives',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ]
+            },
+        ],
+        instructions: [
+           'Make pad thai sauce by combining vegan fish sauce, tamarind, and sugar. Taste and add additional tamarind, salt or sugar to taste. The sauce should taste equally sweet, sour, and salty',
+           'On high heat, saute garlic and shallots w/ a pinch of sugar. I use the water method here, but use oil if you prefer. If using water here, it is important to add water sparingly and often to get some high heat exposure',
+           'Once slightly browned, add chili paste/hot pepper if desired. Also, add tofu, carrots, dried shitake pieces, and dried radish',
+           'Once the aromatics are fragrant, add the soaked noodles. Incorporate well, and add about 1/3 of the pad thai sauce. Mix well, and reduce to medium. Add additional water to keep from burning if necessary, cook for a few minutes',
+           'Once noodles are softened, add red pepper and snow peas. Add 1/2 of the remaining pad thai sauce and cook for 1-2 minutes',
+           'Add chinese chives and bean sprouts. Add the remaining sauce. Reduce to low heat, and gently mix by covering chives and bean sprouts with the cooked noodles',
+           'Cook for ~30 seconds, until chives and bean sprouts have just barely softened',
+           'Garnish & enjoy!',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Thai Almond Slaw',
+        image: '',
+        description: 'It\'s great today, even better tomorrow.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: '',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           '',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: '',
+        image: '',
+        description: '',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: '',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           '',
+        ],
+    },
 ];

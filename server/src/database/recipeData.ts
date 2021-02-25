@@ -1241,4 +1241,25 @@ export const recipes: Recipe[] = [
            'Quickly remove from heat while peas remain bright green and crisp',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Kacang Buncis Goreng',
+        image: '',
+        description: '',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: '',
+                        quantity: new Double(0),
+                        unit: '',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           '',
+        ],
+    },
 ];

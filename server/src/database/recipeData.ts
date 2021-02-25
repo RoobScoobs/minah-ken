@@ -1262,4 +1262,76 @@ export const recipes: Recipe[] = [
            '',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Sambal String Beans',
+        image: '',
+        description: 'Everyone talks about sriracha but a malaysian foodie knows that sambal is where it\’s at. Here it is: Kacang buncis masak sambal tumis.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'red onion or 1 shallot',
+                        quantity: new Double(0.5),
+                        unit: 'chopped',
+                    },
+                    {
+                        name: 'garlic cloves',
+                        quantity: new Double(3),
+                        unit: 'sliced',
+                    },
+                    {
+                        name: 'ginger',
+                        quantity: new Double(1),
+                        unit: '1/8" sliced',
+                    },
+                    {
+                        name: 'hot chilis, sliced and deseeded to taste (I used a mixture of rehydrated dried finger chilis, and fresh long chilis. Use any medium-hot peppers you have except bird’s eye chilis, #sambalolek would also work. You could also use sweet peepers if you don\'t like hot food.)',
+                        quantity: new Double(0.75),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'palm sugar',
+                        quantity: new Double(0.3333),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'tamarind (I used hydrated tamarind pulp, but you could use tamarind concentrate or ~ 1/2c of vinegar or lime juice',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'coconut oil',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'vegan fish sauce (optional, use salt if you don\'t have this)',
+                        quantity: new Double(2),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'pineapple, sliced into bite sized pieces (optional)',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'string beans, cleaned and sliced thinly on the bias',
+                        quantity: new Double(5),
+                        unit: 'c',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           'To make the sambal, blend onion, garlic, ginger, and chilis into a smooth paste. I used an electric chopper (with ~1/2c water) for this however you could use a blender/food processor, or pound by hand with a mortar and pestle',
+           'In a pan, heat the coconut oil on high heat. You can use any high heat oil (vegetable, peanut, etc) however coconut oil gives a rich taste. You could also try doing this oil free however, frying brings out the best flavor in the aromatics and chilis. Try roasting these on high heat before blending, if you wish to be oil free',
+           'Once the oil is searing hot, add the sambal paste. Quickly stir this as it fries. You will probably need to turn on the stovetop fan or open a window as the smell of the chilis may make you cough',
+           'Add palm sugar, vegan fish sauce, and some salt to taste',
+           'Once the sugar is dissolved, add pineapple and string beans. Quickly stir',
+           'Once the string beans have turned bright green (after ~30s-1min), reduce heat and add the tamarind',
+           'Add additional salt or sugar to taste if needed, and remove from heat',
+        ],
+    },
 ];

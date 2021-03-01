@@ -1405,4 +1405,84 @@ export const recipes: Recipe[] = [
            'Serve on bagels with vegan cream cheese, red onions, capers, and fresh dill',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'A Veganized Rojak',
+        image: '',
+        description: 'In malay, rojak means a mixture. It is also the name of this savory fruit salad dressed with a tangy peanut sauce. As the name implies, you could throw anything in here. Other common additions include: green apples, mango, green papaya, sweet potato, and cabbage. There are many different variations, this is my mother’s rojak, veganized',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'mung bean sprouts, washed and cleaned',
+                        quantity: new Double(3),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'cucumber, cut thinly (traditionally these are cut into jagged triangles around the curve of the cucumber, but you may cut them however you like)',
+                        quantity: new Double(1),
+                        unit: '8"',
+                    },
+                    {
+                        name: 'watercress, or other leafy veg, washed and ends trimmed (traditionally kang kung is used, however any hearty leafy green will work)',
+                        quantity: new Double(1),
+                        unit: 'bunch',
+                    },
+                    {
+                        name: 'tofu, cut into small triangles (I like to use tofu puffs or tofu cutlet for this recipe, however you could use any firm variety)',
+                        quantity: new Double(1),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'pineapple, cut into thin pieces',
+                        quantity: new Double(1.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'jicama, peeled and cut into thin pieces',
+                        quantity: new Double(0.5),
+                        unit: '',
+                    },
+                    {
+                        name: 'freshly ground peanut butter',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'tamarind concentrate (tamarind paste works here or ~ 1/4c vinegar or lime juice as substitute',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'hot pepper, minced or 1 tsp chili paste or sambal (optional)',
+                        quantity: new Double(1),
+                        unit: '',
+                    },
+                    {
+                        name: 'soy sauce',
+                        quantity: new Double(1.5),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'palm sugar or 1 - 2 tbsp cane sugar',
+                        quantity: new Double(0.25),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'black salt (optional)',
+                        quantity: new Double(0.5),
+                        unit: 'tsp',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           'Blanch the watercress in boiling water for ~30s until bright green. Quickly drain',
+           'Toast the tofu triangles in the oven at ~350F for about ~15 min or until brown. (If you are using a raw tofu block here, you will need to use parchment paper and bake for a longer duration)',
+           'In a mortar and pestle, grind peanut butter, hot pepper, tamarind, soy sauce, and palm sugar together to form a paste. If using palm sugar, use the pestle to grind the sugar and hot pepper into the peanut butter until well dissolved, then add liquids. You could also use an electric chopper to do this. If using cane sugar, you can mix this in a bowl however the pestle helps to effectively combine ingredients',
+           'Once toasted, sprinkle tofu with black salt. Traditionally this recipe has boiled eggs and tofu. Adding black salt gives the effect of a boiled egg',
+           'In a large bowl, combine the fruits and veg. Pour sauce over the salad, and gently toss. Enjoy!',
+        ],
+    },
 ];

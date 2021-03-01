@@ -1485,4 +1485,25 @@ export const recipes: Recipe[] = [
            'In a large bowl, combine the fruits and veg. Pour sauce over the salad, and gently toss. Enjoy!',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Sushi Galore',
+        image: '',
+        description: 'I was inspired by the carrot lox technique, and have changed it up a bit to get a more raw fish-like result, Still experimenting to get it just right, but excited with the results so far. Here it is as sashimi, nigiri, and made into spicy beet maki',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: '',
+                       quantity: new Double(0),
+                       unit: '',
+                   }
+                ],
+            },
+        ],
+        instructions: [
+           '',
+        ],
+    },
 ];

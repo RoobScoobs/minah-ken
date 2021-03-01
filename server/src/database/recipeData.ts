@@ -1334,4 +1334,75 @@ export const recipes: Recipe[] = [
            'Add additional salt or sugar to taste if needed, and remove from heat',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Carrot Lox',
+        image: '',
+        description: 'In honor of my friend, @bbblizzy, here is my version of #carrotlox. Original recipe is from @olivesfordinner with some modifications. Currently working on some new iterations of this technique for other applications, stay tuned.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                    {
+                        name: 'course sea salt',
+                        quantity: new Double(3),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'carrots, rinsed and unpeeled (try to choose thicker, more evenly shaped carrots for this if you can)',
+                        quantity: new Double(4),
+                        unit: 'large',
+                    },
+                    {
+                        name: 'olive oil',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'rice vinegar',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'fresh dill, minced',
+                        quantity: new Double(0.5),
+                        unit: 'c',
+                    },
+                    {
+                        name: 'dried wakame seaweed (nori would also work here, just cut it into small pieces)',
+                        quantity: new Double(1),
+                        unit: 'handful',
+                    },
+                    {
+                        name: 'smoked paprika (@olivesfordinner uses 2 tsp liquid smoke, so use this instead if you prefer)',
+                        quantity: new Double(0.25),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'liquid aminos/soy sauce or vegan fish sauce',
+                        quantity: new Double(0.5),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'konbu dashi (optional)',
+                        quantity: new Double(1),
+                        unit: 'tbsp',
+                    },
+                ],
+            },
+        ],
+        instructions: [
+           'Choose a baking dish that fits the whole carrots well, deep enough so that they don’t stick out of the top but small enough that there isn’t a ton of free space. (I used a glass bread loaf dish)',
+           'Cover bottom of dish with a layer of salt (~ 1/2" - 1”)',
+           'Place freshly rinsed carrots into the dish',
+           'Cover with salt. the carrots should be completely covered on all sides by salt',
+           'Bake at 375F for 1.5 hours, uncovered. Remove from oven and let cool',
+           'Once cooled enough to handle, remove carrots from salt. You may need to break the hardened salt with a knife or heavy utensil. Gently remove carrots, as they will be very soft and fragile. (Carrots should still be warm, and marinated immediately)',
+           'Carefully remove remaining salt from carrots',
+           'Slice carrots very thinly on the bias into strips, the pieces should emulate the approximate thickness of real lox',
+           'Place carrot slices into a container. Add olive oil, rice vinegar, dill, dried seaweed, smoked paprika, liquid aminos, and konbu dashi',
+           'Gently mix until the carrot slices are well coated. Cover and marinate in the refridgerator for 2-3 days, if mixture looks dry add additional olive oil',
+           'Serve on bagels with vegan cream cheese, red onions, capers, and fresh dill',
+        ],
+    },
 ];

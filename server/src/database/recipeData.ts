@@ -1506,4 +1506,96 @@ export const recipes: Recipe[] = [
            '',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Scallop Nigiri',
+        image: '',
+        description: 'Scallop nigiri was one of my favorite kinds of sushi before going vegan. Luckily, the veganized version is just as tasty. This one is inspired by a hotate special served at my dad’s local sushi shop in Meguro City',
+        ingredients: [
+            {
+                name: 'scallop',
+                items: [
+                   {
+                       name: 'dried konbu',
+                       quantity: new Double(1),
+                       unit: '~ 4" x 6" piece',
+                   },
+                   {
+                       name: 'dried wakame',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'dried shiitake mushroom',
+                       quantity: new Double(1),
+                       unit: '',
+                   },
+                   {
+                       name: 'water',
+                       quantity: new Double(3),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'trumpet or king oyster mushrooms',
+                       quantity: new Double(2),
+                       unit: '',
+                   },
+                   {
+                       name: 'rice vinegar',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+            {
+                name: 'sauce',
+                items: [
+                   {
+                       name: 'vegan mayonaise',
+                       quantity: new Double(2),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'rice vinegar',
+                       quantity: new Double(2),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'konbu stock',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'dijon mustard',
+                       quantity: new Double(0.125),
+                       unit: 'tbsp',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'In pot, bring 3 cups of water to a boil with the dried shiitake mushroom, wakame, and konbu',
+            'Once boiling, bring down to a simmer and cover pot. Simmer for 15 min',
+            'Stir in miso and sugar',
+            'Remove from heat, strain and set aside',
+            'Remove head and bottoms of each mushroom, reserve for another recipe',
+            'Cut mushroom stalk into 1/2” - 1/4” coins, resembling scallops',
+            'Place “scallops” into a dish, and add 1 cup of konbu stock or enough to fully cover the mushroom pieces',
+            'Add rice vinegar and stir',
+            'Cover scallops and allow them to marinate in the stock for at least 1 hour. If scallops are floating or not fully covered by stock, place a heavy dish on top to push to the bottom',
+            'For a “raw” scallop sushi, use chilled, marinated mushrooms. They may need to be thinned into two pieces to layer onto rice, as is done with real scallops',
+            'For a seared or bruleed scallop, pat scallops dry and place on a searing hot, lightly oiled pan. I used red palm oil for this, however you can use any high temperature oil. Allow them to sear for 3 - 4 minutes until well browned',
+           'To make the Vegan Kewpie Mayo sauce I used Hampton Creek\'s Just Mayo as the base. Japanese kewpie mayo is slightly different from American varieties, so I modified this product, by mixing the ingredients as listed. If you want to use vegan mayo straight from the jar, that will work too',
+        ],
+    },
 ];

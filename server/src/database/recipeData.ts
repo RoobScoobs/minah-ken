@@ -1862,4 +1862,108 @@ export const recipes: Recipe[] = [
             'Taste and adjust seasonings if necessary',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Lazy Sweet Potato Tempura 🍠 Maki with Spicy Mayo 🌶',
+        image: '',
+        description: 'Please enjoy...',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: 'sweet potatoes, cut into shoestring pieces',
+                       quantity: new Double(3),
+                       unit: '',
+                   },
+                   {
+                       name: 'rice flour',
+                       quantity: new Double(0.5),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'almond or soy milk',
+                       quantity: new Double(0.25),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'water or club soda',
+                       quantity: new Double(0.25),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'garlic powder',
+                       quantity: new Double(0.5),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'salt',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'black pepper',
+                       quantity: new Double(0.5),
+                       unit: 'tsp', 
+                   },
+                   {
+                       name: 'gochugaru (Korean chili flakes) or other chili powder',
+                       quantity: new Double(0.5),
+                       unit: 'tsp', 
+                   },
+                   {
+                       name: 'avocado, sliced thinly',
+                       quantity: new Double(1),
+                       unit: '', 
+                   },
+                   {
+                       name: 'scallion, sliced into thin strips',
+                       quantity: new Double(2),
+                       unit: '', 
+                   },
+                ],
+            },
+            {
+                name: 'spicy mayo',
+                items: [
+                    {
+                        name: 'vegan mayonaise',
+                        quantity: new Double(3),
+                        unit: 'tbsp',
+                    },
+                    {
+                        name: 'rice vinegar',
+                        quantity: new Double(2),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'sriracha',
+                        quantity: new Double(1),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'sugar',
+                        quantity: new Double(2),
+                        unit: 'tsp',
+                    },
+                    {
+                        name: 'gochugaru (any dried hot pepper will also work)',
+                        quantity: new Double(0.5),
+                        unit: 'tsp',
+                    },
+                ]
+            }
+        ],
+        instructions: [
+            'Mix nondairy milk, water, rice flour, and garlic powder to make batter for the sweet potatoes',
+            'Coat the sweet potato in the batter. Tap off the excess the batter and lay them on a parchment lined baking sheet',
+            'Sprinkle with salt sugar, and chili flakes',
+            'Bake at 400F for 10-15 minutes, turning halfway',
+            'Coat potatoes again in the remaining batter, and return to making sheet. Bake for another 10-15min until golden brown',
+            'Roll sushi with sweet potato, scallion and avocado',
+            'Top with spicy mayo',
+            'To make the spicy mayo sauce, you\'ll want to mix the following ingredients altogether: vegan mayonaise, rice vinegar, sriracha, sugar, and gochugaru',
+            'I used Sir Kensington\'s chipotle fabanaise, however you can use any type of vegan mayo. Simply taste and add larger quantities of sriracha/sugar/vinegar',
+        ],
+    },
 ];

@@ -1799,4 +1799,67 @@ export const recipes: Recipe[] = [
             'Slice into 1" x 3" pieces for nigiri. If desired, peel off any browned layers to give the tamago a more yellow like appearance',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Simple and Sweet',
+        image: '',
+        description: 'Enoki maki with ginger miso glaze',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: 'enoki mushrooms, washed and trimmed',
+                       quantity: new Double(6),
+                       unit: '',
+                   },
+                   {
+                       name: 'cucumber, cut into matchsticks',
+                       quantity: new Double(1),
+                       unit: '',
+                   },
+                   {
+                       name: 'scallions, cut into thin strips',
+                       quantity: new Double(2),
+                       unit: '',
+                   },
+                   {
+                       name: 'miso paste',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'ginger',
+                       quantity: new Double(1),
+                       unit: '1/8" slice',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'tapioca or corn starch',
+                       quantity: new Double(1),
+                       unit: 'tbsp', 
+                   },
+                   {
+                       name: 'mirin (optional)',
+                       quantity: new Double(1),
+                       unit: 'tbsp', 
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'Lightly toast enoki mushrooms on a pan or in the oven at 350F for 5 - 10 minutes, until slightly browned and softened',
+            'Roll sushi with mushrooms, cucumbers, scallions and any other fillings you like',
+            'To make the sauce, bring 1/3 cup of water to a boil with the ginger slice.',
+            'Stir in miso, sugar, and mirin and bring down to a simmer',
+            'Mix tapioca starch with 1 - 2 tbsp water in a separate bowl. Stir until well dissolved',
+            'Add tapioca mixture into saucepan, and stir',
+            'Simmer for 5 - 10 minutes. Sauce should be somewhat thick and glossy',
+            'Taste and adjust seasonings if necessary',
+        ],
+    },
 ];

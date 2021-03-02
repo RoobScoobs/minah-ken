@@ -1595,7 +1595,138 @@ export const recipes: Recipe[] = [
             'Cover scallops and allow them to marinate in the stock for at least 1 hour. If scallops are floating or not fully covered by stock, place a heavy dish on top to push to the bottom',
             'For a “raw” scallop sushi, use chilled, marinated mushrooms. They may need to be thinned into two pieces to layer onto rice, as is done with real scallops',
             'For a seared or bruleed scallop, pat scallops dry and place on a searing hot, lightly oiled pan. I used red palm oil for this, however you can use any high temperature oil. Allow them to sear for 3 - 4 minutes until well browned',
-           'To make the Vegan Kewpie Mayo sauce I used Hampton Creek\'s Just Mayo as the base. Japanese kewpie mayo is slightly different from American varieties, so I modified this product, by mixing the ingredients as listed. If you want to use vegan mayo straight from the jar, that will work too',
+            'To make the Vegan Kewpie Mayo sauce I used Hampton Creek\'s Just Mayo as the base. Japanese kewpie mayo is slightly different from American varieties, so I modified this product, by mixing the ingredients as listed. If you want to use vegan mayo straight from the jar, that will work too',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Vegan Hotate Sushi',
+        image: '',
+        description: 'Here\'s another version of vegan hotate sushi that features the "raw" scallops topped with homemade ponzu and scallions.',
+        ingredients: [
+            {
+                name: 'scallop',
+                items: [
+                   {
+                       name: 'dried konbu',
+                       quantity: new Double(1),
+                       unit: '~ 4" x 6" piece',
+                   },
+                   {
+                       name: 'dried wakame',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'dried shiitake mushroom',
+                       quantity: new Double(1),
+                       unit: '',
+                   },
+                   {
+                       name: 'water',
+                       quantity: new Double(3),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'trumpet or king oyster mushrooms',
+                       quantity: new Double(2),
+                       unit: '',
+                   },
+                   {
+                       name: 'rice vinegar',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+            {
+                name: 'ponzu',
+                items: [
+                   {
+                       name: 'lemon juice (can use yuzu concentrate, or a mixture of lemon/lime)',
+                       quantity: new Double(0.3333),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'tamari/soy sauce',
+                       quantity: new Double(0.3333),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'mirin (I use Eden Foods which is alcoholic and not sweet. If you are using sweet versions, reduce sugar content)',
+                       quantity: new Double(0.3333),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'rice vinegar',
+                       quantity: new Double(1.3333),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'water',
+                       quantity: new Double(0.3333),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'dried konbu',
+                       quantity: new Double(1),
+                       unit: 'fingertip sized',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+            {
+                name: 'sushi rice',
+                items: [
+                   {
+                       name: 'sushi rice',
+                       quantity: new Double(3),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'rice vinegar',
+                       quantity: new Double(6),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'salt',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'In pot, bring 3 cups of water to a boil with the dried shiitake mushroom, wakame, and konbu',
+            'Once boiling, bring down to a simmer and cover pot. Simmer for 15 min',
+            'Stir in miso and sugar',
+            'Remove from heat, strain and set aside',
+            'Remove head and bottoms of each mushroom, reserve for another recipe',
+            'Cut mushroom stalk into 1/2” - 1/4” coins, resembling scallops',
+            'Place “scallops” into a dish, and add 1 cup of konbu stock or enough to fully cover the mushroom pieces',
+            'Add rice vinegar and stir',
+            'Cover scallops and allow them to marinate in the stock for at least 1 hour. If scallops are floating or not fully covered by stock, place a heavy dish on top to push to the bottom',
+            'For a “raw” scallop sushi, use chilled, marinated mushrooms. They may need to be thinned into two pieces to layer onto rice, as is done with real scallops',
+            'For a seared or bruleed scallop, pat scallops dry and place on a searing hot, lightly oiled pan. I used red palm oil for this, however you can use any high temperature oil. Allow them to sear for 3 - 4 minutes until well browned',
+            'For the ponzu sauce combine, lemon juice, tamari, mirin, rice vinegar, water, and konbu in a saucepan',
+            'Bring to a boil, and simmer for 10 - 15 minutes. Add sugar incrementally, until desired taste is achieved',
+            'For the sushi rice wash 3 cups of rice until the rinsing water is fairly clear. Fill pot with enough water to cover the top of the rice by about 1/2”, then cook rice. I use a rice cooker for this, however you could also cook this on the stove',
+            'Once rice is cooked, season with 6tbsp rice vinegar, 2tbsp sugar, and 1 tsp salt. Use a nearby object to fan the rice as you gently toss to distribute the seasoning',
+            'Once well combined, taste and add additional vinegar/sugar/salt to taste if necessary',
         ],
     },
 ];

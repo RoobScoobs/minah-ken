@@ -1729,4 +1729,74 @@ export const recipes: Recipe[] = [
             'Once well combined, taste and add additional vinegar/sugar/salt to taste if necessary',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Tamago Nigiri🍣 dusted with Gochugaru 🌶',
+        image: '',
+        description: 'Improvised this recipe, but I think it has a promising result. Let me know if you have any ideas to improve it. For a more intense egg flavor sprinkle more black salt over the top just before eating.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: 'soft tofu',
+                       quantity: new Double(4),
+                       unit: 'oz',
+                   },
+                   {
+                       name: 'flax meal',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'konbu stock or water',
+                       quantity: new Double(3),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'mirin',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'tamari/soy sauce',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'nutritional yeast',
+                       quantity: new Double(1.5),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'black salt/kala namak',
+                       quantity: new Double(0.5),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'sugar (use less if you use a very sweet mirin)',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'chickpea/gram flour',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'tumeric (optional, for color)',
+                       quantity: new Double(0.25),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'In a blender or food processor, blend all ingredients until smooth',
+            'Taste and add more salt/sugar to taste',
+            'Pour into a parchment lined baking dish, so that it create a 1/4" - 1/2" layer',
+            'Bake at 350F for 30 - 40 minutes, until mixture can be pierced cleanly with a toothpick',
+            'Slice into 1" x 3" pieces for nigiri. If desired, peel off any browned layers to give the tamago a more yellow like appearance',
+        ],
+    },
 ];

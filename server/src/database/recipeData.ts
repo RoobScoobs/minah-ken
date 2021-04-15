@@ -2055,4 +2055,72 @@ export const recipes: Recipe[] = [
             'Pull apart a vertical stalk from the scallion head, and tie it around the nigiri',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Happy Earth Day 🌏',
+        image: '',
+        description: 'unch today is a simple spring pasta 🍝 with artichokes and lemon 🍋 . Didn\'t think I could pull anything together with the remnants of my pantry after this week. To my surprise an old jar of marinated artichokes came to the rescue. Respect the planet, respect your food 🌱🌳🌷🍑',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: 'red onion',
+                       quantity: new Double(0.5),
+                       unit: 'medium',
+                   },
+                   {
+                       name: 'minced garlic cloves',
+                       quantity: new Double(2),
+                       unit: 'large',
+                   },
+                   {
+                       name: 'marinated artichokes, strained',
+                       quantity: new Double(1),
+                       unit: 'small jar',
+                   },
+                   {
+                       name: 'frozen peas',
+                       quantity: new Double(1),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'broccoli florets',
+                       quantity: new Double(1),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'juice of one lemon',
+                       quantity: new Double(1),
+                       unit: '',
+                   },
+                   {
+                       name: 'nutritional yeast',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'garlic powder',
+                       quantity: new Double(0.5),
+                       unit: 'tsp',
+                   },
+                   {
+                       name: 'freshly ground black pepper',
+                       quantity: new Double(1),
+                       unit: 'tsp',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'Boil pasta in salted water until al dente. If using frozen peas and/or broccoli add these to the pot shortly before the pasta is cooked',
+            'Reserve 1-2 cups of cooking water and strain the pasta and vegetables',
+            'Use the cooking water to water sauté the onions and garlic',
+            'Once fragrant, add the artichokes and nutritional yeast. Keep adding more cooking water to keep the mixture from becoming dry',
+            'Add the pasta and vegetable back into the pot',
+            'Season with ground pepper, salt, and garlic powder to taste',
+            'Once the mixture is well combined and the pasta has softened, remove from heat',
+            'Stir in the lemon juice and any additional seasoning to taste',
+        ],
+    },
 ];

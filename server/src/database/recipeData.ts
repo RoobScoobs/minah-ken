@@ -2010,4 +2010,49 @@ export const recipes: Recipe[] = [
             'Once the eggplants have fully absorbed the sauce and softened slightly, remove from heat and allow them to cool',
         ],
     },
+    {
+        _id: new ObjectId(),
+        title: 'Isn\'t It Meta?',
+        image: '',
+        description: 'This is an artichoke imitating, imitation crab.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: '',
+                       quantity: new Double(0),
+                       unit: '',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            '',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Last Edition to the Minah Ken Sushi Bonanza',
+        image: '',
+        description: 'Inspired by @mommytang this is an enoki nigiri wiht vegan oyster sauce and scallions. Mommytang, I have been a silent viewer from the beginning. I guess now I am not so silent! So much love for you and your family, you have inspired me to expand my ventures in vegan cooking but also to find more happiness and self-love in my life.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: '',
+                       quantity: new Double(0),
+                       unit: '',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'Lightly toast cleaned and sectioned enoki mushrooms until slightly softened and browned. You can do this in a pan, I did it in my oven at 350F',
+            'Brush with vegan oyster sauce and place on top of seasoned sushi rice',
+            'Gently soften scallion by putting it in the oven, or on a hot pan for 30sec - 1min',
+            'Pull apart a vertical stalk from the scallion head, and tie it around the nigiri',
+        ],
+    },
 ];

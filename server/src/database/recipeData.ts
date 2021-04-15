@@ -1955,7 +1955,7 @@ export const recipes: Recipe[] = [
             }
         ],
         instructions: [
-            'Mix nondairy milk, water, rice flour, and garlic powder to make batter for the sweet potatoes',
+            'Mix non-dairy milk, water, rice flour, and garlic powder to make batter for the sweet potatoes',
             'Coat the sweet potato in the batter. Tap off the excess the batter and lay them on a parchment lined baking sheet',
             'Sprinkle with salt sugar, and chili flakes',
             'Bake at 400F for 10-15 minutes, turning halfway',
@@ -1964,6 +1964,50 @@ export const recipes: Recipe[] = [
             'Top with spicy mayo',
             'To make the spicy mayo sauce, you\'ll want to mix the following ingredients altogether: vegan mayonaise, rice vinegar, sriracha, sugar, and gochugaru',
             'I used Sir Kensington\'s chipotle fabanaise, however you can use any type of vegan mayo. Simply taste and add larger quantities of sriracha/sugar/vinegar',
+        ],
+    },
+    {
+        _id: new ObjectId(),
+        title: 'Eggplant Unagi 🍆🍣',
+        image: '',
+        description: 'Marathon Monday means vegan unagi! This also makes a delicious onigirazu for eating while you watch the race. ☀️🏃🏻‍♀️🏃🏽‍♀️👟🍙🏅 Here\'s how to make it, for a more detailed recipe check my older post at eggplant unagi.',
+        ingredients: [
+            {
+                name: '*',
+                items: [
+                   {
+                       name: 'Japanese eggplants, sliced on the bias and toasted',
+                       quantity: new Double(2),
+                       unit: '',
+                   },
+                   {
+                       name: 'mirin',
+                       quantity: new Double(0.25),
+                       unit: 'c',
+                   },
+                   {
+                       name: 'soy sauce/tamari',
+                       quantity: new Double(2),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'sugar',
+                       quantity: new Double(2),
+                       unit: 'tbsp',
+                   },
+                   {
+                       name: 'vegan fish sauce (optional)',
+                       quantity: new Double(1),
+                       unit: 'tbsp',
+                   },
+                ],
+            },
+        ],
+        instructions: [
+            'Simmer mirin in a hot pan. Add sugar and stir until completely dissolved',
+            'Add soy sauce and vegan fish sauce. Simmer for about 5 min',
+            'Add baked eggplant slices to pan, and allow them to simmer in the sauce on low heat, covered ~ 10 min. If it becomes too dry or sticky to work with add small amounts of water',
+            'Once the eggplants have fully absorbed the sauce and softened slightly, remove from heat and allow them to cool',
         ],
     },
 ];
